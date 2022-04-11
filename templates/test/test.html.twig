@@ -10,11 +10,15 @@
 
 <div class="example-wrapper">
     <h1>Hello {{ controller_name }}! ✅</h1>
-
+    Bonsoir
+    {{ id }}
+     {{ dump(id) }}
     This friendly message is coming from:
     <ul>
         <li>Your controller at <code><a href="{{ 'C:/MAMP/htdocs/symfony5-4-full/src/Controller/TestController.php'|file_link(0) }}">src/Controller/TestController.php</a></code></li>
         <li>Your template at <code><a href="{{ 'C:/MAMP/htdocs/symfony5-4-full/templates/test/index.html.twig'|file_link(0) }}">templates/test/index.html.twig</a></code></li>
     </ul>
+
+    
 </div>
 {% endblock %}
